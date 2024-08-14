@@ -215,11 +215,17 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .text__about {
-  width: 100%;
-  padding-right: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 .text__about h1 {
@@ -240,6 +246,14 @@ header {
 
 .image__about img {
   width: 300px;
+}
+
+.video_demo {
+  width: 560px;
+  height: 315px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
 }
 
 /*SERVICIOS*/
@@ -563,6 +577,21 @@ footer {
 
   .image__about {
     display: none;
+  }
+  
+  
+  .text__about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+  
+  }
+ 
+  .video_demo{
+    margin: 10px;
+    padding-top: 20px;
   }
 
   .contact p {
